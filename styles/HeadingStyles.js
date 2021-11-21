@@ -4,10 +4,11 @@
 const styles = {
 container: {
     display: 'flex',
-    flexDirection:['column'],
+    flexDirection: ['column', 'row'],
     color: '#ffff',
     justifyContent: 'center',
-    alignItems:'center'
+    alignItems:'center',
+    padding: '64px 0'
 
 },
 
@@ -32,6 +33,15 @@ p: {
 
 imgContainer: {
 flex: '2',
+
+
+Image: {
+    height: ['100px']
+}
+},
+imag: {
+    height: '100px',
+    width:'50px'
 }
 }
 

@@ -6,6 +6,8 @@ import Image from 'next/image'
 //Components
 import Hero from '../components/containers/Hero';
 import {Box } from '@chakra-ui/react';
+import Skills from '../components/containers/Skills/Skills';
+import Marginner from '../components/containers/Marginner';
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
     <meta property='og:title' content='Welcome to my website'/>  
   </Head>
 <Hero/>
+<Marginner/>
+<Skills/>
 
 
 
