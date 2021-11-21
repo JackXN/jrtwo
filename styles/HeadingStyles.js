@@ -5,7 +5,10 @@ const styles = {
 container: {
     display: 'flex',
     flexDirection:['column'],
-    color: '#ffff'
+    color: '#ffff',
+    justifyContent: 'center',
+    alignItems:'center'
+
 },
 
 introText: {

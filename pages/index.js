@@ -6,6 +6,7 @@ import Image from 'next/image'
 //Components
 import Hero from '../components/containers/Hero';
 import {Box } from '@chakra-ui/react';
+
 export default function Home() {
   return (
 
@@ -17,11 +18,11 @@ export default function Home() {
     <meta name='description' content='Full-Stack web developer'/>
     <meta property='og:title' content='Welcome to my website'/>  
   </Head>
-    <Box style={{margin: '0', padding: '0'}}>
 <Hero/>
 
 
-    </Box>
+
+
     </>
   )
 }
