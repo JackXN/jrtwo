@@ -17,17 +17,17 @@ function Footer() {
     return (
         <Box sx={styles.footer}>
         <UnorderedList sx={styles.listContainer}>
-          <ListItem sx={styles.listItem}>
-            <Link href="https://www.linkedin.com/in/jack-rigan/">
+          <ListItem sx={styles.listItem} data-aos='fade-up' data-aos-duration='1000' data-aos-delay='50'>
+            <Link href="https://www.linkedin.com/in/jack-rigan/" >
               <LinkedIn />
             </Link>
           </ListItem>
-          <ListItem sx={styles.listItem}>
+          <ListItem sx={styles.listItem} data-aos='fade-down' data-aos-duration='1000' data-aos-delay='50'>
             <Link href="https://github.com/JackXN">
               <Github />
             </Link>
           </ListItem>
-          <ListItem sx={styles.listItem}>
+          <ListItem sx={styles.listItem} data-aos='fade-up' data-aos-duration='1000' data-aos-delay='50'>
             <Link>
               <Twitter/>   
             </Link>

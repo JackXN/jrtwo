@@ -22,7 +22,7 @@ function index() {
     <Box sx={styles.containerTwo}>
     {data.slice(0,4).map((project) => (
         <Tilt key={project.id}>
-        <Box key={project.id} sx={styles.projectCard} backgroundImage={project.imgSrc}>
+        <Box key={project.id} sx={styles.projectCard} backgroundImage={project.imgSrc} data-aos='zoom-in' data-aos-duration='2000' data-aos-delay='50'>
 <Box sx={styles.projectHeader}>
 <Text as='h1' fontWeight='500' fontSize='18px'>{project.title}</Text>
 <Text as='p' fontWeight='400' fontSize='16px'>{project.description}</Text>
