@@ -24,7 +24,7 @@ projectCard: {
     margin: '1rem',
     color: 'white',
     backgroundPosition: 'center',
-    backgroundSize: '100%',
+    backgroundSize: 'cover',
     cursor: 'pointer',
 },
 projectHeader: {
