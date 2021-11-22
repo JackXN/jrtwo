@@ -2,7 +2,6 @@ const styles = {
     container: {
 display: 'flex',
 backgroundColor: '#cc5859',
-
 padding: '32px 0',
 flexWrap: 'wrap',
 justifyContent: 'center',
@@ -29,7 +28,7 @@ skillsIconContainer: {
 },
 iconName: {
     fontSize: '16px',
-    fontFamily: 'catamaran, sans-serif',
+    fontFamily: 'Catamaran, sans-serif',
     mt: '15px',
     color: 'white'
 }
