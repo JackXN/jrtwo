@@ -10,6 +10,8 @@ from 'react-icons/fa';
 import {
     SiJavascript as JavaScript,
     SiNextdotjs as NextJs,
+    SiMocha as Mocha,
+    SiRedux as Redux,
 
 }
 from 'react-icons/si';
@@ -45,7 +47,17 @@ const skillSet = [
         id: 6,
         name: 'Node',
         Icon: Node,
-    }
+    },
+    {
+        id: 7,
+        name: 'Mocha Chai',
+        Icon: Mocha,
+    },
+    {
+        id: 8,
+        name: 'Redux',
+        Icon: Redux,
+    },
 
 ]
 
