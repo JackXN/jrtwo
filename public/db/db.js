@@ -1,26 +1,26 @@
 const data = [
     {
       id: 1,
-      imgSrc: "/images/apexImage.png",
+      imgSrc: "/apexImage.png",
       title: "Apex Security",
       description: "A cyber-security landing page",
     },
     {
       id: 2,
-      imgSrc: "/images/uitodoimage.png",
+      imgSrc: "/uitodoimage.png",
       title: "uitodo",
       description: "A collaborative todo app",
 
     },
     {
       id: 3,
-      imgSrc: "/images/PomodoroImg.png",
+      imgSrc: "/PomodoroImg.png",
       title: "Pomodoro Timer",
       description: "A time tracking app for a productive workflow",
     },
     {
         id: 4,
-        imgSrc: "/images/ResImage.png",
+        imgSrc: "/ResImage.png",
         title: "Restaurant Reservation App",
         description: "A reservation management app",
       },
