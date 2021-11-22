@@ -7,6 +7,7 @@ import Marginner from '../components/containers/Marginner';
 import Projects from '../components/containers/Projects/index';
 import Head from 'next/head'
 import Image from 'next/image';
+import Footer from '../components/containers/Footer/Footer';
 
 import {useEffect} from 'react';
 
@@ -37,6 +38,7 @@ useEffect(() => {
 <Marginner/>
 <Skills/>
 <Projects/>
+<Footer/>
 
 
 
