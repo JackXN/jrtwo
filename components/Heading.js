@@ -1,8 +1,8 @@
 // Media
 import HeadImg from '../public/Images/HeadImg.png'
-
-//styles
+//Styles
 import styles from '../styles/HeadingStyles';
+
 // Components
 import {Box, Text, Grid} from '@chakra-ui/react';
 import Image from 'next/image';
@@ -12,9 +12,7 @@ import ReadMore from './ReadMore';
 
 
 function Heading() {
-    <style>
 
-    </style>
     return (
         <>
         <Box sx={styles.container}>

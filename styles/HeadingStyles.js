@@ -33,16 +33,7 @@ p: {
 
 imgContainer: {
 flex: '2',
-
-
-Image: {
-    height: ['100px']
-}
-},
-imag: {
-    height: '100px',
-    width:'50px'
+pr: [null, null, null, '200px']
 }
 }
-
 export default styles;

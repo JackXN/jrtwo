@@ -41,6 +41,11 @@ const skillSet = [
         name: 'Next.js',
         Icon: NextJs,
     },
+    {
+        id: 6,
+        name: 'Node',
+        Icon: Node,
+    }
 
 ]
 

@@ -1,0 +1,63 @@
+const data = [
+    {
+      id: 1,
+      imgSrc: "/images/webcord.png",
+      title: "Communiti Live Chat",
+      description: "A Live Chat Application",
+    },
+    {
+      id: 2,
+      imgSrc: "/images/webcord.png",
+      title: "Giga Chad V.1",
+      description: "Portal Page For GigaChad's Crypto Fraternity",
+
+    },
+    {
+      id: 3,
+      imgSrc: "/images/webcord.png",
+      title: "Pomodoro Timer",
+      description: "Pomodoro Timer For Time Management And Efficiency",
+    
+    },
+    {
+      id: 4,
+      imgSrc: "/images/webcord.png",
+      title: "Apex Security",
+      description: "Landing Page For A Made Up Cyber Security Company",
+    
+    },
+  
+    {
+      id: 5,
+      imgSrc: "RestaurantLogo.png",
+      title: "Restaurant Reservation App",
+      description: "Dashboard for managing Dinner reservations and table seating",
+    
+    },
+    {
+      id: 6,
+      imgSrc: "PAXLogo.png",
+      title: "PAX SMP",
+      description: "Landing Page For A Minecraft SMP Server",
+
+    },
+    {
+      id: "7",
+      imgSrc: "DecoderLogo.png",
+      title: "The Decoder Ring",
+      description: "An App Designed To Encrypt And Decrypt Secret Messages",
+  
+    },
+    {
+      id: '8',
+      imgSrc: 'DLogo.png',
+      title: 'Devnicks',
+      description: 'A Web Development And Design Landing Page',
+      
+    }
+  ];
+
+
+  export default data;
+
+

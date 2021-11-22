@@ -2,6 +2,7 @@ const styles = {
     container: {
 display: 'flex',
 backgroundColor: '#cc5859',
+
 padding: '32px 0',
 flexWrap: 'wrap',
 justifyContent: 'center',

@@ -8,6 +8,7 @@ import Hero from '../components/containers/Hero';
 import {Box } from '@chakra-ui/react';
 import Skills from '../components/containers/Skills/Skills';
 import Marginner from '../components/containers/Marginner';
+import Projects from '../components/containers/Projects/index';
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
 <Hero/>
 <Marginner/>
 <Skills/>
+<Projects/>
 
 
 
