@@ -8,7 +8,8 @@ container: {
     color: '#ffff',
     justifyContent: 'center',
     alignItems:'center',
-    padding: '64px 0'
+    padding: '64px 0',
+    flexWrap: 'wrap',
 
 },
 

@@ -1,13 +1,16 @@
-import React from 'react'
+
 import {HiOutlineArrowSmDown as DownArrow} from 'react-icons/hi';
+import {Link} from 'react-scroll';
 
 function ReadMore() {
     return (
         <div style={{display: 'flex',
-        flexDirection:'column', alignItems:'center',color: 'white',
-        }} >
-             <p>Read More</p>
+        flexDirection:'column', alignItems:'center',color: 'white', cursor: 'pointer',
+        }} data-aos='fade-up' data-aos-duration='2000' data-aos-delay='50'>
+            
+             <Link to='project' smooth={true} spy={100} duration={600}><p>Read More</p></Link>
             <DownArrow/>
+            
         </div>
     )
 }

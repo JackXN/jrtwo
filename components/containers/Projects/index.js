@@ -17,8 +17,8 @@ import styles from '../../../styles/ProjectStyles';
 function index() {
 
     return (
-<Box sx={styles.container}>
-<Text as='h1' fontSize='2rem'>Projects</Text>
+<Box sx={styles.container} id='project'>
+<Text as='h1' fontSize='32px' margin='20px' fontWeight='700'> My Projects</Text>
     <Box sx={styles.containerTwo}>
     {data.slice(0,4).map((project) => (
         <Tilt key={project.id}>

@@ -2,7 +2,7 @@ const styles =   {
 container: {
     height: '100%',
     textAlign:'center',
-    cursor: 'pointer',
+    fontFamily: 'Catamaran, sans-serif',
 Title: {
     color: 'red',
 }
@@ -11,9 +11,10 @@ Title: {
 },
 containerTwo: {
     display: 'flex',
-    flexDirection: 'row',
+    flexDirection: ['column', 'row', 'row'],
     justifyContent: 'center',
     alignItems: 'center',
+    flexWrap:'wrap',
 
 },
 projectCard: {
@@ -24,6 +25,7 @@ projectCard: {
     color: 'white',
     backgroundPosition: 'center',
     backgroundSize: '100%',
+    cursor: 'pointer',
 },
 projectHeader: {
 backgroundColor: '#232322',
