@@ -2,9 +2,7 @@ import '../styles/globals.css'
 import {ChakraProvider} from '@chakra-ui/react';
 import {extendTheme} from '@chakra-ui/react';
 
-import AOS from "aos";
-import 'aos/dist/aos.css';
-AOS.init()
+
 
 const theme = extendTheme({
   colors: {

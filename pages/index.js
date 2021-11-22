@@ -8,9 +8,16 @@ import Projects from '../components/containers/Projects/index';
 import Head from 'next/head'
 import Image from 'next/image';
 
+import {useEffect} from 'react';
+
+import AOS from 'aos';
+
+
 export default function Home() {
 
-
+useEffect(() => {
+  AOS.init({})
+}, [])
 
   return (
 
@@ -21,9 +28,10 @@ export default function Home() {
     <title>Jack Rigan</title>
     <meta name='description' content='Full-Stack web developer'/>
     <meta property='og:title' content='Welcome to my website'/>  
+    
 
 {/* AOS */}
-{/* <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/> */}
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
   </Head>
 <Hero/>
 <Marginner/>
