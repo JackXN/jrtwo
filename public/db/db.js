@@ -24,13 +24,13 @@ const data = [
         title: "Restaurant Reservation App",
         description: "A reservation management app",
       },
-   
   
+  ];
+
+
 
 
 //! UNUSED PROJECTS
-  ];
-
 
   const unused = [
     {

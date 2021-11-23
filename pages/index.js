@@ -27,8 +27,8 @@ useEffect(() => {
 {/* Make sure to configure meta tags before prod deployment */}
 <Head>
     <title>Jack Rigan</title>
-    <meta name='description' content='Jack Rigan is a fullstack developer that enjoys'/>
-    <meta property='og:title' content='Welcome to my website'/>  
+    {/* <meta name='description' content='Jack Rigan is a fullstack developer that enjoys'/>
+    <meta property='og:title' content='Welcome to my website'/>   */}
     
 
 {/* AOS */}
