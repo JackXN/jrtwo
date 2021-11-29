@@ -1,7 +1,5 @@
 //Components
 import { Box, Text} from '@chakra-ui/react';
-import Link from 'next/link';
-import Image from 'next/image';
 import Tilt from 'react-parallax-tilt';
 
 //Data
@@ -27,7 +25,7 @@ function index() {
 <Text as='h1' fontWeight='500' fontSize='18px'>{project.title}</Text>
 <Text as='p' fontWeight='400' fontSize='16px'>{project.description}</Text>
 </Box>
- </Box>
+ </Box> 
             </Tilt>
     ))}
 </Box>

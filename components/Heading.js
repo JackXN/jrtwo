@@ -1,5 +1,5 @@
 // Media
-import HeadImg from '../public/Images/HeadImg.png'
+import HeadImg from '../public/Images/HeadThree.png'
 
 //Styles
 import styles from '../styles/HeadingStyles';
