@@ -1,7 +1,11 @@
 const styles = {
     container: {
-        background:'#FB6769',
-        height: '100%',
+        // backgroundImage: 'url(/anotherimage.png)',
+        background: '#FF6668',
+        height: '100vh',
+        backgroundSize: 'cover',
+        backgroundAttachment: 'fixed',
+        backgroundPosition: 'center',
         
     }
 }

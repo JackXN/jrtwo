@@ -1,22 +1,25 @@
-import {Box, UnorderedList, ListItem} from '@chakra-ui/react';
-import {DiReact as React} from 'react-icons/di'
 
-function ShowCaseHeader() {
+// Components
+import {Box, UnorderedList, ListItem, Icon} from '@chakra-ui/react';
+
+
+
+//Icons
+import {DiReact as Javascript} from 'react-icons/di'
+
+
+
+
+function ShowCaseHeader({project}) {
     return (
        <Box sx={styles.wrapper}>
            <Box sx={styles.container}>
            <h2>Introducing Project</h2>
-           <h1>uitodo</h1>
+           <h1>{project.title}</h1>
            <Box style={{display: 'flex',
         alignItems: 'center',
         justifyContent: 'center', textAlign: 'center'}}>
-               <ul sx={styles.techList} style={{display: 'flex', listStyle: 'none', fontSize: '24px' }}>
-<li><React/></li>
-<li><React/></li>
-<li><React/></li>
-<li><React/></li>
-<li><React/></li>
-               </ul>
+            <Icon as={project.iconTest}/>
            </Box>
            </Box>
        </Box>

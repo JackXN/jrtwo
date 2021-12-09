@@ -9,11 +9,11 @@ import styles from "../../../styles/ProjectHeader";
 import {DiReact as React} from 'react-icons/di';
 
 
-function Header() {
+function Header({project}) {
   return (
 <>
 <Nav/> 
-<ShowCaseHeader/>
+<ShowCaseHeader project={project}/>
 </>
   );
 }

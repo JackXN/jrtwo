@@ -1,7 +1,11 @@
 const styles = {
     container: {
 display: 'flex',
-backgroundColor: '#cc5859',
+backgroundColor: '#CD5959',
+backgroundPosition: 'center',
+backgroundSize: 'cover',
+border: 'none',
+backgroundAttachment: 'fixed',
 padding: '32px 0',
 flexWrap: 'wrap',
 justifyContent: 'center',

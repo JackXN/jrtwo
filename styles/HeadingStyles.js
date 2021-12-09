@@ -34,7 +34,7 @@ p: {
 
 imgContainer: {
 flex: '2',
-pr: [null, null, null, '200px']
+pr: [null, null, null, '200px'],
 }
 }
 export default styles;
