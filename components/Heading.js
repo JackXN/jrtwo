@@ -1,5 +1,5 @@
 // Media
-import HeadImg from '../public/finaljackimage.png'
+import HeadImg from '../public/finaljackImage.png'
 
 //Styles
 import styles from '../styles/HeadingStyles';
