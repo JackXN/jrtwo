@@ -35,6 +35,8 @@ p: {
 imgContainer: {
 flex: '2',
 pr: [null, null, null, '200px'],
+padding: '45px',
+
 }
 }
 export default styles;

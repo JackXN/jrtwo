@@ -8,6 +8,7 @@ import styles from '../styles/HeadingStyles';
 import {Box, Text} from '@chakra-ui/react';
 import Image from 'next/image';
 import ReadMore from './ReadMore';
+import Marginner from './containers/Marginner';
 
 
 
@@ -24,7 +25,7 @@ function Heading() {
             <Text as='p' data-aos='fade-right' data-aos-duration='2000' data-aos-delay='50'>Full-Stack Developer based in Salt Lake City, Utah</Text>
             </Box>
             <Box sx={styles.imgContainer}>
-        <Image src={HeadImg} style={{height: '5000px', width: '5000px'}} alt='Jack Rigan' data-aos='zoom-in' data-aos-duration='2000' data-aos-delay='50' />
+        <Image src={HeadImg} alt='Jack Rigan' data-aos='zoom-in' data-aos-duration='2000' data-aos-delay='50'/>
             </Box>
         </Box>
         <ReadMore/>

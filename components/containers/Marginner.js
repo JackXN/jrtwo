@@ -2,7 +2,7 @@ import React from 'react'
 
 function Marginner() {
     return (
-        <div style={{height: '200px', width: '100%', background: 'lightGray'}}>
+        <div style={{height: '500px', width: '100%', background: '#FF6668'}}>
         </div>
     )
 }
