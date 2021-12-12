@@ -24,6 +24,7 @@ h1:{
    fontWeight: '700',
    fontSize: '64px'
 },
+
 p: {
     fontWeight: '400',
     fontSize: '16px',

@@ -3,11 +3,11 @@
 import {Box, UnorderedList, ListItem, Icon} from '@chakra-ui/react';
 
 
-
-//Icons
-import {DiReact as Javascript} from 'react-icons/di'
-
-
+//! REMEMBER TO REPLACE TEST ICONS WITH ICONS IN THE JSON DATA FILE
+// Icons
+import {IoLogoJavascript as Javascript} from 'react-icons/io';
+import {DiReact as React, DiCss3 as CSS3} from 'react-icons/di';
+import {SiRedux as Redux} from 'react-icons/si';
 
 
 function ShowCaseHeader({project}) {
@@ -16,11 +16,12 @@ function ShowCaseHeader({project}) {
            <Box sx={styles.container}>
            <h2>Introducing Project</h2>
            <h1>{project.title}</h1>
-           <Box style={{display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center', textAlign: 'center'}}>
-            <Icon as={project.iconTest}/>
-           </Box>
+           <UnorderedList sx={styles.iconList}>
+               <ListItem mr='10px'><Icon as={Javascript}/></ListItem>
+               <ListItem mr='10px'><Icon as={React}/></ListItem>
+               <ListItem mr='10px'><Icon as={CSS3}/></ListItem>
+               <ListItem mr='10px'><Icon as={Redux}/></ListItem>
+           </UnorderedList>
            </Box>
        </Box>
     )
@@ -56,6 +57,13 @@ h1: {
         textAlign: 'center',
         backgroundColor: '#EEEEEE',
         padding: '20px'
+    },
+    iconList: {
+        display: 'flex',
+        listStyle: 'none',
+        alignItems: 'center',
+        flexWrap: 'wrap',
+        fontSize: '20px'
     }
 }
 

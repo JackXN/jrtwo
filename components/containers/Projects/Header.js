@@ -7,12 +7,13 @@ import styles from "../../../styles/ProjectHeader";
 
 // Icons
 import {DiReact as React} from 'react-icons/di';
+import {DiJavascript1 as Javascript} from 'react-icons/di';
 
 
 function Header({project}) {
   return (
 <>
-<Nav/> 
+<Nav project={project}/>
 <ShowCaseHeader project={project}/>
 </>
   );
