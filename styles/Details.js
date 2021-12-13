@@ -3,6 +3,7 @@ const styles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    mt: '120px',
 
     h1: {
       fontWeight: '700',
@@ -26,7 +27,6 @@ const styles = {
   },
 
   containerOneDescription: {
-    margin: "120px",
     display: "flex",
     flexDirection: "column",
     textAlign: "left",
@@ -43,7 +43,6 @@ const styles = {
     flexWrap: "wrap",
   },
   containerTwoDescription: {
-    margin: "120px",
     display: "flex",
     flexDirection: "column",
     maxWidth: "700px",
