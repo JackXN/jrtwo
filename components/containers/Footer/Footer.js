@@ -9,7 +9,7 @@ import styles from '../../../styles/FooterStyles';
 //Icons
 import {
     AiFillLinkedin as LinkedIn,
-    AiFillTwitterSquare as Twitter,
+    AiOutlineInstagram as Instagram,
     AiFillGithub as Github,
   } from "react-icons/ai";
 
@@ -28,8 +28,8 @@ function Footer() {
             </Link>
           </ListItem>
           <ListItem sx={styles.listItem} data-aos='fade-up' data-aos-duration='1000' data-aos-delay='50'>
-            <Link>
-              <Twitter/>   
+            <Link href='https://www.instagram.com/jackuhhuh/'>
+              <Instagram/>   
             </Link>
           </ListItem>
         </UnorderedList>
