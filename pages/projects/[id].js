@@ -7,8 +7,8 @@ import Head from "next/head";
 
 
 // Icons
-import {DiJavascript1 as Javascript} from 'react-icons/di';
-
+import {AiFillGithub as Github} from 'react-icons/ai'
+import {GrView as View} from 'react-icons/gr';
 
 // Styles
 import styles from "../../styles/Details";
@@ -66,8 +66,8 @@ const ProjectDetails = ({ project }) => {
             </Box>
           </Box>
     <Box sx={styles.buttonContainer}>
-      <Button href='#' bg="rgba(0,0,0,0.3)" mr='20px'>Github</Button>
-      <Button href='#' bg="rgba(0,0,0,0.3)">Live View</Button>
+      <Button href='#' bg="rgba(0,0,0,0.3)" mr='20px' sx={styles.button}><Github fontSize='25px'/></Button>
+      <Button href='#' bg="rgba(0,0,0,0.3)" sx={styles.button}><View fontSize="25px"/></Button>
     </Box>
         </Box>
       </Box>

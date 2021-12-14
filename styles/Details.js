@@ -1,9 +1,13 @@
 const styles = {
+  button: {
+background: 'none',
+  },
   container: {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
     mt: '120px',
+    flexDirection: 'column',
 
     h1: {
       fontWeight: '700',
