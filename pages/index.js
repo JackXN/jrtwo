@@ -26,7 +26,7 @@ useEffect(() => {
 <Head>
     <title>Jack Rigan</title>
     <meta name='description' content='Jack Rigan is a fullstack developer that enjoys'/>
-    <meta property='og:title' content='Welcome to my website'/>  
+    <meta property='og:title' content='Full-Stack Web Developer'/>  
     
 {/* AOS */}
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
