@@ -48,6 +48,14 @@ const styles = {
     maxWidth: "700px",
     padding: "32px",
   },
+  buttonContainer: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    mt: ['35px', '35px', '35px', '90px'],
+    padding: '20px',
+    
+  }
 };
 
 export default styles;

@@ -1,5 +1,5 @@
 // Components
-import { Box, Text, Image } from "@chakra-ui/react";
+import { Box, Text, Image, Button } from "@chakra-ui/react";
 import Header from "../../components/containers/Projects/Header";
 import Nav from '../../components/containers/Projects/Nav';
 import Head from "next/head";
@@ -61,10 +61,14 @@ const ProjectDetails = ({ project }) => {
               <Text as='h1' fontSize='20px' fontWeight='bold'>{project.descriptionTitleTwo}</Text>
               <Text as='p'>{project.descriptionTwo}</Text>
             </Box>
-            <Image src={project.descriptionImgTwo} alt={project.title} height='350px'/>
+            {project.descriptionImgTwo ? <Image src={project.descriptionImgTwo} alt={project.title} height='350px'/> : null}
            </Box>
             </Box>
           </Box>
+    <Box sx={styles.buttonContainer}>
+      <Button href='#' bg="rgba(0,0,0,0.3)" mr='20px'>Github</Button>
+      <Button href='#' bg="rgba(0,0,0,0.3)">Live View</Button>
+    </Box>
         </Box>
       </Box>
     </>
