@@ -1,12 +1,10 @@
 
 //Components
 import Hero from '../components/containers/Hero';
-import {Box } from '@chakra-ui/react';
 import Skills from '../components/containers/Skills/Skills';
 import Marginner from '../components/containers/Marginner';
 import Projects from '../components/containers/Projects/index';
 import Head from 'next/head'
-import Image from 'next/image';
 import Footer from '../components/containers/Footer/Footer';
 
 import {useEffect} from 'react';
