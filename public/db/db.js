@@ -8,9 +8,8 @@ const data = [
     {
       id: 2,
       imgSrc: "/uitodoimage.png",
-      title: "uitodo",
-      description: "A collaborative todo app",
-
+      title: "devtodo",
+      description: "A collaborative app for developers",
     },
     {
       id: 3,
