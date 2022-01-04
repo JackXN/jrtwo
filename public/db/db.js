@@ -1,10 +1,10 @@
 const data = [
-    {
-      id: 1,
-      imgSrc: "/apexImage.png",
-      title: "Apex Security",
-      description: "A cyber-security landing page",
-    },
+  {
+    id: 1,
+    imgSrc: '/SwagImg.png',
+    title: "Swag",
+    description: 'A full-stack ecommerce skate shop'
+  },
     {
       id: 2,
       imgSrc: "/uitodoimage.png",
@@ -23,12 +23,7 @@ const data = [
         title: "Restaurant Reservation App",
         description: "A reservation management app",
       },
-      {
-      id: 5,
-      imgSrc: '/SwagImg.png',
-      title: "Swag Skateshop",
-      description: 'A full-stack ecommerce skate shop'
-    }
+
   
   ];
 

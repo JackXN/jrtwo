@@ -29,7 +29,7 @@ function index({project}) {
 <Box sx={styles.container} id='project'>
 <Text as='h1' fontSize='32px' margin='20px' fontWeight='700'> My Projects</Text>
     <Box sx={styles.containerTwo}>
-    {data.slice(0,4).map((project) => (
+    {data.slice(0,5).map((project) => (
         <Tilt key={project.id}>
             <Link href={'/projects/' + project.id}>
         <Box key={project.id} sx={styles.projectCard} style={{backgroundImage: `url(${project.imgSrc})`}} data-aos='zoom-in' data-aos-duration='1000' data-aos-delay='50'>
