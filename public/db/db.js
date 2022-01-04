@@ -23,6 +23,12 @@ const data = [
         title: "Restaurant Reservation App",
         description: "A reservation management app",
       },
+      {
+      id: 5,
+      imgSrc: '/SwagImg.png',
+      title: "Swag Skateshop",
+      description: 'A full-stack ecommerce skate shop'
+    }
   
   ];
 
