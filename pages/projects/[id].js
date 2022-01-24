@@ -18,7 +18,7 @@ const BASE_URL = process.env.REACT_APP_API_BASE_URL;
 
 export const getStaticPaths = async () => {
   const res = await fetch(
-    "https://my-json-server.typicode.com/JackXN/API-Rigan/projects"
+    "https://my-json-server.typicode.com/jackxn/jr2projects/projects"
   );
   const data = await res.json();
   // console.log(data)
@@ -38,7 +38,7 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
   const id = context.params.id;
   const res = await fetch(
-    `https://my-json-server.typicode.com/JackXN/API-Rigan/projects/${id}`
+    `https://my-json-server.typicode.com/jackxn/jr2projects/projects/${id}`
   )
   console.log(res)
   const data = await res.json();
