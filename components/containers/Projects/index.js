@@ -10,7 +10,10 @@ import styles from '../../../styles/ProjectStyles';
 
 //! UPDATE LINK WITH PROPER PATH
 
+const BASE_URL = process.env.REACT_APP_API_BASE_URL;
 
+
+// Not needed
 export const getStaticProps = async () => {
     const res = await fetch('https://my-json-server.typicode.com/JackXN/API-Rigan/projects')
 const data = await res.json()
@@ -23,7 +26,11 @@ return {
 
 
 
+
+
+
 function index({project}) {
+
 
     return (
 <Box sx={styles.container} id='project'>

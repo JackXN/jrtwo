@@ -3,8 +3,6 @@ import { Box, Text, Image, Button } from "@chakra-ui/react";
 import Header from "../../components/containers/Projects/Header";
 import Nav from '../../components/containers/Projects/Nav';
 import Head from "next/head";
-// import Image from 'next/image'
-
 
 // Icons
 import {AiFillGithub as Github} from 'react-icons/ai'
@@ -12,6 +10,11 @@ import {GrView as View} from 'react-icons/gr';
 
 // Styles
 import styles from "../../styles/Details";
+
+
+const BASE_URL = process.env.REACT_APP_API_BASE_URL;
+
+
 
 export const getStaticPaths = async () => {
   const res = await fetch(
@@ -30,12 +33,17 @@ export const getStaticPaths = async () => {
   };
 };
 
+
+
 export const getStaticProps = async (context) => {
   const id = context.params.id;
   const res = await fetch(
     `https://my-json-server.typicode.com/JackXN/API-Rigan/projects/${id}`
-  );
+  )
+  console.log(res)
   const data = await res.json();
+  console.log(data)
+  console.log('test')
   return {
     props: { project: data },
   };
