@@ -72,8 +72,8 @@ const ProjectDetails = ({ project }) => {
             </Box>
           </Box>
     <Box sx={styles.buttonContainer}>
-      <Button href='#' bg="rgba(0,0,0,0.3)" mr='20px' sx={styles.button}><Link href={project.githubUrl}><Github fontSize='25px'/></Link></Button>
-      <Button href='#' bg="rgba(0,0,0,0.3)" sx={styles.button}><Link href={project.liveUrl}><View fontSize="25px"/></Link></Button>
+      <Button href='#' bg="rgba(0,0,0,0.3)" mr='20px' sx={styles.button}><a href={project.githubUrl}><Github fontSize='25px'/></a></Button>
+      <Button href='#' bg="rgba(0,0,0,0.3)" sx={styles.button}><a href={project.liveUrl}><View fontSize="25px"/></a></Button>
     </Box>
         </Box>
       </Box>
