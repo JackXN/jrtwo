@@ -3,6 +3,7 @@ import { Box, Text, Image, Button } from "@chakra-ui/react";
 import Header from "../../components/containers/Projects/Header";
 import Nav from '../../components/containers/Projects/Nav';
 import Head from "next/head";
+import Link from 'next/link';
 
 // Icons
 import {AiFillGithub as Github} from 'react-icons/ai'
@@ -40,10 +41,7 @@ export const getStaticProps = async (context) => {
   const res = await fetch(
     `https://my-json-server.typicode.com/jackxn/jr2projects/projects/${id}`
   )
-  console.log(res)
   const data = await res.json();
-  console.log(data)
-  console.log('test')
   return {
     props: { project: data },
   };
@@ -74,8 +72,8 @@ const ProjectDetails = ({ project }) => {
             </Box>
           </Box>
     <Box sx={styles.buttonContainer}>
-      <Button href='#' bg="rgba(0,0,0,0.3)" mr='20px' sx={styles.button}><Github fontSize='25px'/></Button>
-      <Button href='#' bg="rgba(0,0,0,0.3)" sx={styles.button}><View fontSize="25px"/></Button>
+      <Button href='#' bg="rgba(0,0,0,0.3)" mr='20px' sx={styles.button}><Link href={project.githubUrl}><Github fontSize='25px'/></Link></Button>
+      <Button href='#' bg="rgba(0,0,0,0.3)" sx={styles.button}><Link href={project.liveUrl}><View fontSize="25px"/></Link></Button>
     </Box>
         </Box>
       </Box>

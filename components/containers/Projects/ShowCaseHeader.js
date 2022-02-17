@@ -17,11 +17,8 @@ function ShowCaseHeader({project}) {
            <h2>Introducing Project</h2>
            <h1>{project.title}</h1>
            <UnorderedList sx={styles.iconList}>
-               <ListItem mr='10px'><Icon as={Javascript}/></ListItem>
-               <ListItem mr='10px'><Icon as={React}/></ListItem>
-               <ListItem mr='10px'><Icon as={CSS3}/></ListItem>
-               <ListItem mr='10px'><Icon as={Redux}/></ListItem>
-           </UnorderedList>
+               <ListItem mr='10px'>{project.iconOne ? <Redux/> : null}</ListItem>
+           </UnorderedList> 
            </Box>
        </Box>
     )
