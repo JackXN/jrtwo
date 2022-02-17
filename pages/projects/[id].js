@@ -3,7 +3,6 @@ import { Box, Text, Image, Button } from "@chakra-ui/react";
 import Header from "../../components/containers/Projects/Header";
 import Nav from '../../components/containers/Projects/Nav';
 import Head from "next/head";
-import Link from 'next/link';
 
 // Icons
 import {AiFillGithub as Github} from 'react-icons/ai'
