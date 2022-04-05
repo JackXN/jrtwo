@@ -6,7 +6,7 @@ import Marginner from '../components/containers/Marginner';
 import Projects from '../components/containers/Projects/index';
 import Head from 'next/head'
 import Footer from '../components/containers/Footer/Footer';
-
+import LighthouseBar from '../components/containers/lighthouseBar/index';
 import {useEffect} from 'react';
 
 import AOS from 'aos';
@@ -32,6 +32,7 @@ useEffect(() => {
 {/* AOS */}
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
 </Head>
+<LighthouseBar/>
 <Hero/>
 <Marginner/>
 <Skills/>

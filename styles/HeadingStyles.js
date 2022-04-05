@@ -13,6 +13,16 @@ container: {
 
 },
 
+lightHouseContainer : {
+    // display: 'flex',
+    flexDirection:'column',
+    justifyContent: 'center',
+    fontSize: '25px',
+    pt: '20px',
+    mr: '20px',
+    float: 'right'
+},
+
 introText: {
 flex: '4',
 textAlign: 'center',

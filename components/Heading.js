@@ -9,14 +9,19 @@ import {Box, Text} from '@chakra-ui/react';
 import Image from 'next/image';
 import ReadMore from './ReadMore';
 import Marginner from './containers/Marginner';
-
-
+import { Tooltip } from '@chakra-ui/react'
+import {GiLighthouse as Lighthouse} from 'react-icons/gi';
 
 
 function Heading() {
 
     return (
         <>
+              {/* <Box sx={styles.lightHouseContainer}>
+                  <Tooltip label='The Lighthouse Project' placement='bottom'>
+<Lighthouse color='white'/>
+</Tooltip>
+            </Box> */}
         <Box sx={styles.container}>
             <Box sx={styles.introText}>
             <Text as='h1' 
@@ -32,5 +37,7 @@ function Heading() {
     </>
     )
 }
+
+
 
 export default Heading
