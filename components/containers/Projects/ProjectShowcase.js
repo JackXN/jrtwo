@@ -19,6 +19,7 @@ function ProjectShowcase() {
           </Box>
           <Box sx={styles.description}>
             <Text>Project description placeholder shit</Text>
+            
           </Box>
         </Box>
       </Box>
