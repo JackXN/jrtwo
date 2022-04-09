@@ -9,7 +9,7 @@ const data = [
       id: 2,
       imgSrc: "/uitodoimage.png",
       title: "devtodo",
-      description: "A collaborative app for developers",
+      description: "A collaborative todo app",
     },
     {
       id: 3,
