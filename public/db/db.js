@@ -27,7 +27,7 @@ const data = [
         id: 5,
         imgSrc: '/batch.png',
         title: 'BatchForum',
-        description: 'Tech Forum & Resources'
+        description: 'Tech Blog & Developer Resources'
       }
 
   
