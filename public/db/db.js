@@ -23,6 +23,12 @@ const data = [
         title: "Restaurant Reservation App",
         description: "A reservation management app",
       },
+      {
+        id: 5,
+        imgSrc: '/batch.png',
+        title: 'BatchForum',
+        description: 'Tech Forum & Resources'
+      }
 
   
   ];
