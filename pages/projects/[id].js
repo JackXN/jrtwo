@@ -14,8 +14,6 @@ import styles from "../../styles/Details";
 
 const BASE_URL = process.env.REACT_APP_API_BASE_URL;
 
-
-
 export const getStaticPaths = async () => {
   const res = await fetch(
     "https://my-json-server.typicode.com/jackxn/jr2projects/projects"
@@ -32,8 +30,6 @@ export const getStaticPaths = async () => {
     fallback: false,
   };
 };
-
-
 
 export const getStaticProps = async (context) => {
   const id = context.params.id;
