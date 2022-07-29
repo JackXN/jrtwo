@@ -18,7 +18,7 @@ useEffect(() => {
   AOS.init({})
 }, [])
 
-  retuzrn (
+  return (
 
     <>
 <Head>
