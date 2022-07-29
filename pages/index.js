@@ -18,12 +18,20 @@ useEffect(() => {
   AOS.init({})
 }, [])
 
-  return (
+  retuzrn (
 
     <>
 <Head>
+  <meta charset='utf-8'/>
+  <meta content='IE=edge'/>
     <title>Jack Rigan</title>
-    <meta name='description' content='Jack Rigan is a fullstack developer that enjoys'/>
+    <meta property='og:title' content='Jack Rigan'/>
+    <meta name='instagram:title' content='Jack Rigan'/>
+    <meta name='og:description' content='full-stack software developer and graphic designer'/>
+    <meta property='og:type' content='website'/>
+    <meta property='og:url' content='https://www.jackrigan.com'/>
+    <meta property='og:image' content='https://www.jackrigan.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfinaljackImage.190eff5a.png&w=3840&q=75'/>
+    <meta property='author' content='Jack Rigan'/>
     <meta property='og:title' content='Full-Stack Web Developer'/>  
     <link rel="shortcut icon" href="/favicon.ico" />
           <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
